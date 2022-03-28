@@ -1,15 +1,15 @@
 #############################################
 #update
 ##############################################
-for rectangle in rectangles:
-    rectangle.update(rectangles)
+for circle in circles:
+    circle.update(circles)
 
 
 ##############################################
 #draw
 ##############################################
-guids_rectangles = []
-for rectangle in rectangles:
-    guids = rectangle.draw()
-    guids_rectangles.extend(guids)
+guids_circles = []
+for circle in circles:
+    guids = circle.draw()
+    guids_circles.extend(guids)
 
